@@ -1,0 +1,1 @@
+<a href="<?php echo SITE_URL?>mod/api-definition?aPiCoLlEcTiOnCoDe={id}" class="waves-effect waves-circle waves-light secondary-content"  title="Manage the API Operation of - <?php echo strip_tags($moduleTitle)?> Details"><i class="material-icons">cloud_queue</i></a>

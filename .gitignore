@@ -1,17 +1,30 @@
-*/config/development
+.DS_Store
+
+/system
+/vendor
+/application/vendor
+/uploads
+/uploads/*
+.htaccess
+access.log
+error.log
+
+### Composer ###
+composer.lock
+
+### https://github.com/github/gitignore/blob/master/CodeIgniter.gitignore ###
 */logs/log-*.php
-!*/logs/index.html
+*/logs/!index.html
 */cache/*
-!*/cache/index.html
-!*/cache/.htaccess
+*/cache/!index.html
+*/cache/!.htaccess
 
-user_guide_src/build/*
-user_guide_src/cilexer/build/*
-user_guide_src/cilexer/dist/*
-user_guide_src/cilexer/pycilexer.egg-info/*
+/nbproject/private/
 
-#codeigniter 3
-application/logs/*
-!application/logs/index.html
-!application/logs/.htaccess
-/vendor/
+####### Begin, Config Files #########
+#/application/config/*
+/application/config/local/database.php
+/application/config/development/database.php
+/application/config/testing/database.php
+/application/config/production/database.php
+####### End, Config Files #########

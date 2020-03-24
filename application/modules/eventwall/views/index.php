@@ -1,0 +1,3 @@
+<!-- <a href="<?php echo SITE_URL?>mod/tags-?event-code={id}"  class="waves-effect waves-circle waves-light btn-floating secondary-content" title="Show User Feeds"><i class="material-icons">message</i></a> -->
+<a href="<?php echo SITE_URL?>mod/tags-?event-code={id}"  class="waves-effect waves-circle waves-light btn-floating secondary-content" title="Show Twitter Handler and Hash-tags"><i class="material-icons">functions</i></a>
+<a href="<?php echo SITE_URL?>social-wall/grid-setup?event-code={id}"  class="waves-effect waves-circle waves-light btn-floating secondary-content" title="Show Wall"><i class="material-icons">grid_on</i></a>

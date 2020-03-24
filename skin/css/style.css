@@ -1,0 +1,597 @@
+table{
+	font-size: 12px !important;
+}
+/* nav{
+	background-color: #075d93 !important;
+} */
+.had-container{
+	/* padding: 10px 10px 10px 10px !important */
+	padding: 0px 0px 0px 0px !important
+}
+.error-text{
+	background-color: red;
+	color: #ffffff;
+}
+.bg-red{
+	background-color: red;
+}
+.bg-dark-gray{
+	color: #ffffff !important;
+	background-color: #333333 !important;
+}
+.bg-dark-gray-level-2{
+	color: #ffffff !important;
+	background-color: #33333370 !important;
+}
+.txt-gary{
+	color: #c7c7c77a !important;
+}
+.bg-menu{
+	background-color: blue;	
+}
+.card-bg-color{
+	background-color: #f7f2f2;
+	border: 1px #C7C7C7 solid;
+	box-shadow: 2px 2px #C7C7C7;
+}
+.w100{
+	width: 100px !important;
+}
+.w150{
+	width: 150px !important;
+}
+.w200{
+	width: 200px !important;
+}
+.w50p{
+	width: 50% !important;
+}
+.w100p{
+	width: 100% !important;
+}
+.pt10{
+	padding-top: 10px;
+}
+.pb10{
+	padding-bottom: 10px !important;
+}
+.p10{
+	padding: 10px 10px 10px 10px !important;
+}
+.npl{
+	padding-left: 0px !important;
+}
+.npr{
+	padding-right: 0px !important;
+}
+.npt{
+	padding-top: 0px !important;
+}
+.npb{
+	padding-bottom: 0px !important;
+}
+.mt10{
+	margin-top: 10px;
+}
+.mt20{
+	margin-top: 20px;
+}
+.nmt5{
+	margin-top: -5px !important;
+}
+.nml20{
+	margin-left: -20px !important;
+}
+.nml10{
+	margin-left: -10px !important;
+}
+.ml0{
+	margin-left: 0px !important;
+}
+.f100{
+	font-size:100px;
+}
+.f30{
+	font-size:30px !important;
+}
+.f25{
+	font-size:25px;
+}
+.f20{
+	font-size:20px !important;
+}
+.f15{
+	font-size:15px;
+}
+.f12{ font-size:12px !important;}
+.f10{
+	font-size:10px !important;
+}
+.centre{
+	text-align: center !important;
+}
+.text-bold{
+	font-weight: bold !important;
+}
+.nav-wrapper .dropdown-content{
+	margin-top: 60px !important;
+}
+ #dropdown1{
+	margin-top: 35px !important;
+ }
+.dropdown-content li > a > i{
+	margin: 0px 2px 0px 0px !important;
+}
+.module-action{
+	margin: 10px 0px 0px 0px !important;
+}
+.lead-profile{
+	margin: 0 0 0 -24px !important
+}
+.logo-login-container{
+	/*width: 100% !important;
+	height: 100% !important;*/
+}
+.logo-container{
+	width: 70px !important;
+	height: 70px !important;
+}
+.highlight-cell-with-underling{
+	font-weight: bold;
+	line-height: 3;
+	border-bottom: 1px solid #C7C7C7;
+}
+.feedTypeButtons{
+	position: relative; 
+}
+.fixed-action-btn-card{
+	position: absolute; 
+	bottom: 10px;
+}
+.fixed-action-btn-card ul{
+	display: none;
+}
+.fixed-action-btn-card ul li{
+	display: inline ;
+}
+.fixed-action-btn-card-container{
+	/* float: right; */
+	display: none;
+}
+.powerBy{
+	color: #9f9f9f !important;
+}
+
+.help-text{
+	margin: -5px 0px 10px 0px !important;
+    font-size: 12px !important;
+    color: #757575;
+}
+
+.help-text code{ 
+	padding: 2px 4px;
+    font-size: 85%;
+    color: #c7254e;
+    background-color: #f9f2f4;
+    border-radius: 3px;
+}
+
+@media screen and (max-width: 767px) {
+	.indigo-text, h4{
+		font-size : 20px !important;
+	}
+	.aActionContainer{
+		margin-top: -40px !important;
+	}
+	.spnActionTexta{
+		font-size : 20px !important;
+	}
+	.module-action{
+		margin: 20px 0px 0px 0px !important;
+	}
+	.brand-logo{
+		margin: -7px 0px 0px 0px !important;
+	}
+	.user-log{
+		margin: -7px -14px 0px 17px !important;
+	}
+	.module-context-menu{
+		margin: -30px 0px 0px 0px !important;
+	}
+	.top-context-menu{
+		margin: 0px -4px 0px 0px !important;
+	}
+	#dropdown1{
+		margin: 0px 0px 0px 0px !important;
+		width: 180px !important;
+	}
+	.logo-container{
+		width: 50px !important;
+		height: 50px !important;
+		margin-top: 10px !important;
+	}
+	
+	.logo-login-container{
+		width: 70px !important;
+		height: 70px !important;
+	}
+	.lead-report{
+		border: 1px #C7C7C7 solid;
+		box-shadow: 2px 2px #C7C7C7;
+		padding: 10px !important;
+	}
+}
+
+.flex {
+	display: flex;
+	flex-wrap: wrap;
+}
+
+.cell_index_data{
+	height: 100% !important;
+	position: relative !important;
+}
+
+.feedTbl{
+	table-layout: fixed;
+}
+.feedTbl td{
+	word-wrap:break-word;
+}
+
+.grid-event-url-dis-alert-total-grid-cnt{
+	padding: 10px;
+}
+
+/**************FRONT END *********************************/
+/* EVENT CODE INPUT */
+.fEventCodeContainer{
+	display: inline-block !important; 
+	padding: 20px 20px 20px 20px !important; 
+	border: 1px solid #EEE !important; 
+	width: 70% !important
+}
+.fEnterEventCodeSubTitle{ 
+	font-size: 16px !important;
+	color: #8e8e8e !important;
+	width: 200px !important;
+}
+.fEnterEventCodeTitle{	 
+	color: #535353 !important;
+}
+.fEventFrom{
+	width: 70% !important;
+}
+.fEventFrom .fEventEnterLabel{
+	font-size: 30px !important;
+	color: #535353 !important;
+	text-align: center !important;
+	width: 130% !important;
+}
+.fEventFrom .fEventEnterInput{
+	padding: 10px !important;
+	font-size: 25px !important;
+	letter-spacing: 20px !important;
+	text-align: center !important;
+	box-shadow: 0px 0px 49px 0px rgba(187, 204, 204, 1) !important;
+	/* -webkit-box-shadow: 0px 0px 49px 0px #BCC !important; */
+	-webkit-box-shadow:  0px 0px 49px 0px rgba(187, 204, 204, 1) !important;
+	/* margin-top: 30px !important; */
+	-webkit-appearance: none;
+}
+.fEventFrom .fEventCodeSubmit{
+	width: 250px !important;
+}
+
+.v-seperator-feeds{
+	background: no-repeat;
+	background-image: url('/skin/images/seperator.png');
+	background-position: right center;
+	background-size: 2px 80% !important;
+	
+}
+.v-seperator-feeds-and-inputs{
+	background: no-repeat;
+	background-image: url('/skin/images/seperator.png');
+	background-position: right center;
+	background-size: 2px 100% !important;
+	
+}
+
+/* USER FEEDS */
+.fEventUserFeedEventName{
+	font-size: 25px !important;
+}
+
+.fEventUserFeedEventCode{
+	font-size: 20px !important;
+	padding-right: 20px !important;
+}
+
+.fUserFeedMainContainer, .userFeedColorSorting {
+	color: #929292 !important;
+}
+.fUserFeedMainContainer .fUserFeedContainer{
+	margin-left: 10px !important;
+}
+
+.fUserFeedMainContainer .fUserFeedContainer .fBorder{
+	border: 1px solid #0d47a1 !important;
+	color: #0d47a1 !important;
+}
+.fUserFeedMainContainer .fUserFeedOrContainer{
+	font-size: 15px  !important;
+	font-weight: bold;
+	color: #9c9c9c !important;
+}
+.fUserFeedMainContainer .fUserFeedActionContainer{
+	margin-top : -20px !important;
+	padding: 0px !important;
+	/* margin-right: 20px !important; */
+}
+
+.fUserFeedMainContainer .feedText{
+	color: #6a6a6a !important;
+}
+
+.fUserFeedMainContainer .comment-form input, .fUserFeedMainContainer .comment-form textarea{
+	padding: 10px !important;
+	box-shadow: 0px 0px 40px 0px #BCC !important;
+	margin-top: 20px !important;
+}
+.fUserFeedMainContainer .comment-form input{
+	width: 95% !important;
+}
+.fUserFeedMainContainer .comment-form label{
+	font-size: 16px !important;
+	font-weight: bold;
+}
+.fUserFeedMainContainer .user-feed-ajax-feeder{
+	/* margin-left: 10px !important; */
+	font-size: 13px !important;
+}
+
+.seperator{
+	margin-left: 45px;
+}
+.v-seperator {
+	width: 3px;
+    border-right: 2px solid #d6d6d6;
+    height: 100%;
+	margin-top: 5px !important;
+}
+
+.timeline-item {
+   background: #fff;
+   border-radius: 3px;
+   padding: 12px;
+   margin: 0 auto;
+   max-width: 100%;
+}
+ 
+
+/*FRONT_END - SOCIAL WALL */
+.img-rational-view{
+	/*width: 100% !important;*/
+	height: 100% !important;
+}
+.img-rational-view-container{
+	margin: auto !important;
+}
+ 
+@keyframes placeHolderShimmer{
+    0%{
+        background-position: -468px 0
+    }
+    100%{
+        background-position: 468px 0
+    }
+}
+ 
+.animated-background {
+    animation-duration: 1s;
+    animation-fill-mode: forwards;
+    animation-iteration-count: infinite;
+    animation-name: placeHolderShimmer;
+    animation-timing-function: linear;
+    background: #f6f7f8;
+    background: linear-gradient(to right, #eeeeee 8%, #dddddd 18%, #eeeeee 33%);
+    background-size: 800px 104px;
+    height: 96px;
+    position: relative;
+}
+ 
+ 
+.background-masker {
+    background: #fff;
+    position: absolute;
+}
+ 
+/* Every thing below this is just positioning */
+ 
+.background-masker.header-top,
+.background-masker.header-bottom,
+.background-masker.subheader-bottom {
+    top: 0;
+    left: 40px;
+    right: 0;
+    height: 10px;
+}
+ 
+.background-masker.header-left,
+.background-masker.subheader-left,
+.background-masker.header-right,
+.background-masker.subheader-right {
+    top: 10px;
+    left: 40px;
+    height: 8px;
+    width: 10px;
+}
+ 
+.background-masker.header-bottom {
+    top: 18px;
+    height: 6px;
+}
+ 
+.background-masker.subheader-left,
+.background-masker.subheader-right {
+    top: 24px;
+    height: 6px;
+}
+.background-masker.header-right,
+.background-masker.subheader-right {
+    width: auto;
+    left: 300px;
+    right: 0;
+}
+ 
+.background-masker.subheader-right {
+    left: 230px;
+}
+ 
+.background-masker.subheader-bottom {
+    top: 30px;
+    height: 10px;
+}
+ 
+.background-masker.content-top,
+.background-masker.content-second-line,
+.background-masker.content-third-line,
+.background-masker.content-second-end,
+.background-masker.content-third-end,
+.background-masker.content-first-end {
+    top: 40px;
+    left: 0;
+    right: 0;
+    height: 6px;
+}
+ 
+.background-masker.content-top {
+    height:20px;
+}
+ 
+.background-masker.content-first-end,
+.background-masker.content-second-end,
+.background-masker.content-third-end{
+    width: auto;
+    left: 380px;
+    right: 0;
+    top: 60px;
+    height: 8px;
+}
+ 
+.background-masker.content-second-line  {
+    top: 68px;
+}
+ 
+.background-masker.content-second-end {
+    left: 420px;
+    top: 74px;
+}
+ 
+.background-masker.content-third-line {
+    top: 82px;
+}
+ 
+.background-masker.content-third-end {
+    left: 300px;
+    top: 88px;
+}
+
+.btn, .btn-large, .btn-small, .btn-flat{
+	text-transform: none !important;
+}
+
+@media screen and (min-width: 767px) and (max-width: 1028px)  {
+	/* EVENT CODE INPUT */
+	.fEventCodeContainer{
+		display: inline-block !important; 
+		padding: 0px !important; 
+		border: 1px solid #EEE !important; 
+		width: 100% !important
+	}
+}
+
+@media screen and (max-width: 767px) {
+	/* EVENT CODE INPUT */
+	.fEventCodeContainer{
+		display: inline-block !important; 
+		padding: 0px !important; 
+		border: 1px solid #EEE !important; 
+		width: 100% !important
+	}
+	.fEnterEventCodeTitle{
+		font-size: 18px !important;
+		color: #535353 !important;
+	}
+	.fEnterEventCodeSubTitle{ 
+		font-size: 12px !important;
+		width: 100% !important;
+		color: #8e8e8e !important;
+	}
+	.fEventFrom{
+		width: 80% !important;
+		margin-left: -24px !important;
+	}
+	.fEventFrom .fEventEnterLabel{
+		font-size: 25px !important;
+	}
+	.fEventFrom .fEventEnterInput{
+		padding: 10px !important;
+		font-size: 25px !important;
+		letter-spacing: 20px !important;
+		text-align: center !important;
+		box-shadow: 0px 0px 49px 8px #BCC !important;
+		/* margin-top: 30px !important; */
+	}
+	.fEventFrom .fEventCodeSubmit{
+		width: 250px !important;
+	}
+	
+	
+	/* USER FEEDS */
+	.device-alignment{
+		margin-top: -20px !important;
+		text-align: center !important;
+	}
+	.fUserFeedMainContainer .fUserFeedActionContainer{
+		margin-top: 0px !important;
+	}
+	.fUserFeedMainContainer .fUserFeedContainer{
+		margin-left: 0px !important;
+	}
+	.fEventUserFeedEventName{
+		font-size: 20px !important;
+	}
+	
+	.show-on-medium-and-down{
+		width: 100% !important;
+		padding-bottom: 10px !important;
+		color : #ffffff !important;
+	}
+	
+	.fUserFeedActionContainer .right-align{
+		text-align: center !important;
+	}
+	
+	.fUserFeedMainContainer .user-feed-ajax-feeder{
+		margin: 0px 0px 0px 0px!important;
+		padding: 0px 10px 0px 10px!important;
+	}
+	
+	.fix-footer{
+		position: fixed;
+		left: 0;
+		bottom: 0;
+		width: 100%;
+	}
+	.center-align-custom{
+		text-align: center !important;
+	}
+	.sm-f15{
+		font-size : 15px !important;
+	}
+	.center-align-custom .cmdDMLAction{
+		width: 70% !important;
+	}
+}
